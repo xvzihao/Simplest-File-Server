@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+    <div class="header">
+        {server_name}
+    </div>
+    <div class="pathbar">
+        <p> Index of</p><a href="/root/" type="text/html"> / </a> {path}
+    </div>
+    <div class="container">
+        <table>
+            <tr>
+                <th class="name">Name</th>
+                <th class="size">Size</th>
+                <th class="link">Link</th>
+            </tr>
+            {add}
+
+        </table>
+    </div>
+    <div class="footer">
+        <h1>{owner}</h1>
+    </div>
+</body>
+
+</html>
